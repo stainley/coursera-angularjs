@@ -9,7 +9,7 @@
   function LunchCheckController($scope){
 
     $scope.message = "";
-    $scope.items = "";
+    $scope.items = "";    
 
     $scope.calculate = function(){
       $scope.message = calculateItem($scope.items);
@@ -35,4 +35,5 @@
       return text;
     };
   };
+
 })();
